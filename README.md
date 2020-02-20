@@ -150,5 +150,5 @@ The modern Sodium cryptography library has now become a core extension in PHP.
 
 ### Core Improvements
 
-In excession to this, php 7.2 has extended string types of PDO, provided support for extended operations in LDAP, introduced new features in PCRE and many more changes are done.
+Not only this, php 7.2 has extended string types of PDO, provided support for extended operations in LDAP, introduced new features in PCRE and many more changes are done.
 
