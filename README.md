@@ -52,7 +52,7 @@ In the example below getCarName() function is using Object type parameter and re
 
 ### Abstract method overriding
 
-In the earlier version of php, it was not possible to override abstract methods 
+In the earlier version of php, it wasn't possible to override abstract methods 
 when it extends another abstract class. now, php has facilitated us to override abstract methods when it extends another abstract class..!
 
     abstract class Calculator{
@@ -67,11 +67,11 @@ when it extends another abstract class. now, php has facilitated us to override 
 
 ### Parameter type widening
 
-In addition to this, we may omit parameter types from the overriden methods and even from interfaces implementations.
+In addition to this, we may omit parameter types from the overridden methods and even from interfaces implementations.
 
-As an evidence,look at the example below. Here,we have declared parameter type in the calculateProductPrice() method of the Product interface.The Customer class implements the Product interfce. As you can see, parameter type is omitted in the calculateProductPrice() method of Customer class. Infact, the value of $productPrice is integer instead of float and still it works.! 
+As an evidence,look at the example below. Here,we have declared parameter type in the calculateProductPrice() method of the Product interface.The Customer class implements the Product interface. As you can see, parameter type is omitted in the calculateProductPrice() method of Customer class. In fact, the value of $productPrice is integer instead of float and still it works.! 
 
-Note:- In the previous versions, it would throw a fatal error that calculateProductPrice($price, $quanity) must be compatible with Product::calculateProductPrice(float $productPrice, int $quanity) for the same example. 
+Note:- In the previous versions, it would throw a fatal error that calculate ProductPrice($price, $quantity) must be compatible with Product::calculateProductPrice(float $productPrice, int $quanity) for the same example. 
 
     interface Product
     {
@@ -152,4 +152,3 @@ The modern Sodium cryptography library has now become a core extension in PHP.
 
 In excession to this, php 7.2 has extended string types of PDO, provided support for extended operations in LDAP, introduced new features in PCRE and many more changes are done.
 
-# php-7-2-features
